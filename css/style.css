@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.upper-section {
+    display: flex;
+    padding-top: 2.5rem;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+button {
+    border: 1px solid lightgray;
+    padding: 0.5rem 1rem;
+    margin: 0.6rem 0;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.email-list {
+    margin-top: 1.5rem;
+    padding: 0.7px 1.6px;
+}
+
+li {
+    padding: 0.9rem 0;
+    text-align: center;
+}
+
+li{
+    border-bottom: 1px solid lightgrey;
+}

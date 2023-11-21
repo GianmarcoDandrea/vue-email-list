@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- link to vue -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     
     <div id="app">
-        
-        <h1>Lista Email</h1>
+        <div class="upper-section">
+            <h1>Lista Email</h1>
+    
+            <button @click="generateEmail">Genera Lista Email</button>
 
-        <button @click="generateEmail">Genera Lista Email</button>
+        </div>
         
         <div v-if="emailList.length === 10">
             <ul>
